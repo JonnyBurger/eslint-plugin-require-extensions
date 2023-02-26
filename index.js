@@ -1,4 +1,4 @@
-const { existsSync } = require("fs");
+const { existsSync, lstatSync } = require("fs");
 const { dirname, resolve } = require("path");
 
 module.exports = {
